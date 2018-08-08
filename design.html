@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Theme</title>
+    <link rel="stylesheet" href="bootstrap-3/css/bootstrap.min.css">
+    <style>
+        .navbar
+        {
+            margin-bottom: 0px;
+        }
+        .space
+        {
+            padding: 50px;
+        }
+        .space1
+        {
+            padding: 30px;
+        }
+        .margin
+        {
+            margin-bottom: 30px;
+        }
+        .bg
+        {
+            background-color: #f1efef;
+        }
+        .bg1
+        {
+            background-color: #6c6c92;
+        }
+        .text, .submit:hover
+        {
+            color: white;
+        }
+        .text1
+        {
+            color: #6c6c92;
+        }
+        .shadow:hover
+        {
+            box-shadow:0px 1px 2px 0px #f1efef;
+        }
+
+        @media screen and (max-width: 1200px)
+        {
+            .space3
+            {
+                margin-bottom: 30px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse bg">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Me</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu" >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav navbar-right">
+                    <li> <a href="">Who</a> </li>
+                    <li> <a href="">What</a> </li>
+                    <li> <a href="">Where</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid space bg1">
+        <h3 class="margin text-center text">who am i? </h3>
+        <img src="image/top.jpg" class="img-circle center-block margin shadow" height="200" width="150">
+        <p class="text-center text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, </p>
+    </div>
+
+    <div class="container-fluid space bg">
+        <h3 class="margin text-center text1">what am i?</h3>
+        <p class="text-center margin text1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+            dummy text ever since the 1500s, </p>
+        <button class="btn bg1 center-block text submit"><span class="glyphicon glyphicon-camera"></span> Submit</button>
+    </div>
+
+    <div class="container-fluid space bg1">
+        <h3 class="margin text-center text">where to find me?</h3>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 space3">
+            <p class="text-justify text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                dummy text ever since the 1500s, </p>
+            <img src="image/top.jpg" class="thumbnail" height="300" width="100%">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 space3">
+            <p class="text-justify text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                dummy text ever since the 1500s, </p>
+            <img src="image/top.jpg" class="thumbnail" height="300" width="100%">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 space3">
+            <p class="text-justify text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                dummy text ever since the 1500s, </p>
+            <img src="image/top.jpg" class="thumbnail" height="300" width="100%">
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 space3">
+            <p class="text-justify text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                dummy text ever since the 1500s, </p>
+            <img src="image/top.jpg" class="thumbnail" height="300" width="100%">
+        </div>
+
+    </div>
+
+    <div class="container-fluid space1 bg">
+        <h6 class="text-center text1">Theme made by Manisha</h6>
+    </div>
+
+
+
+    <script src="bootstrap-3/jquery.min.js"></script>
+    <script src="bootstrap-3/js/bootstrap.min.js"></script>
+</body>
+</html>
